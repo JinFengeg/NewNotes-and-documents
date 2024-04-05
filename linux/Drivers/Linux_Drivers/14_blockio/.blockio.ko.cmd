@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/14_blockio/blockio.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/f-king/linux/Drivers/Linux_Drivers/14_blockio/blockio.ko /home/f-king/linux/Drivers/Linux_Drivers/14_blockio/blockio.o /home/f-king/linux/Drivers/Linux_Drivers/14_blockio/blockio.mod.o;  true

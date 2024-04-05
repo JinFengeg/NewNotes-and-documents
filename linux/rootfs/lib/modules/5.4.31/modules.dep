@@ -1,0 +1,30 @@
+ap3216c.ko:
+ad7606_m.ko:
+usb_f_mass_storage.ko: libcomposite.ko
+atomic.ko:
+leddriver.ko:
+8723ds.ko: cfg80211.ko
+mutex.ko:
+beep.ko:
+spinlock.ko:
+libcomposite.ko:
+cfg80211.ko:
+noblockio.ko:
+timer.ko:
+blockio.ko:
+miscbeep.ko:
+g_mass_storage.ko: usb_f_mass_storage.ko libcomposite.ko
+semaphore.ko:
+usb_f_uac1_legacy.ko: libcomposite.ko
+ft5x06.ko:
+newchrled.ko:
+chrdevbase.ko:
+dtsled.ko:
+r8188eu.ko: cfg80211.ko
+pintest.ko:
+led.ko:
+keyinput.ko:
+leddevice.ko:
+g_audio.ko: libcomposite.ko
+asyncnoti.ko:
+icm20608.ko:

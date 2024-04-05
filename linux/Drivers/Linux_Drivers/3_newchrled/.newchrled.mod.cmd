@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/3_newchrled/newchrled.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/3_newchrled/newchrled.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/3_newchrled/newchrled.mod

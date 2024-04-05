@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/12_timer/timer.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/12_timer/timer.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/12_timer/timer.mod

@@ -1,0 +1,7 @@
+stm32h743i-disco.o: arch/arm/boot/dts/stm32h743i-disco.dts \
+ arch/arm/boot/dts/stm32h743.dtsi arch/arm/boot/dts/armv7-m.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/stm32h7-clks.h \
+ scripts/dtc/include-prefixes/dt-bindings/mfd/stm32h7-rcc.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ arch/arm/boot/dts/stm32h743-pinctrl.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/stm32-pinfunc.h

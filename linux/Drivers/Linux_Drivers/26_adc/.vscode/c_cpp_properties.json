@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/f-king/linux/atk-mp1/linux/my_linux/linux-5.4.31/arch/arm/include", 
+                "/home/f-king/linux/atk-mp1/linux/my_linux/linux-5.4.31/include", 
+                "/home/f-king/linux/atk-mp1/linux/my_linux/linux-5.4.31/arch/arm/include/generated"
+            ],
+            "defines": [],
+             "compilerPath": "/usr/bin/gcc",
+             "cStandard": "gnu11",
+             "cppStandard": "gnu++14",
+             "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

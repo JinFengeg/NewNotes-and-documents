@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.mod

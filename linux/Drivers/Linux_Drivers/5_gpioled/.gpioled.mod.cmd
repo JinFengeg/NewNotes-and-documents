@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/5_gpioled/gpioled.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/5_gpioled/gpioled.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/5_gpioled/gpioled.mod

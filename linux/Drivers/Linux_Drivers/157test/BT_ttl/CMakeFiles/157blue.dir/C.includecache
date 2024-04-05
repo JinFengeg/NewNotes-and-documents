@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/f-king/linux/Drivers/Linux_Drivers/157test/BT_ttl/blue.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/socket.h
+-
+bluetooth/bluetooth.h
+-
+bluetooth/hci.h
+-
+bluetooth/hci_lib.h
+-
+

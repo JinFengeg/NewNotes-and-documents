@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/23_multitouch/ft5x06.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/23_multitouch/ft5x06.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/23_multitouch/ft5x06.mod

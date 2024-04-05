@@ -1,0 +1,4 @@
+aspeed-bmc-facebook-cmm.o: arch/arm/boot/dts/aspeed-bmc-facebook-cmm.dts \
+ arch/arm/boot/dts/aspeed-g5.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ arch/arm/boot/dts/facebook-bmc-flash-layout.dtsi

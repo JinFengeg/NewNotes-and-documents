@@ -1,0 +1,3 @@
+/home/f-king/linux/Drivers/Linux_Drivers/157test/BT_ttl/CMakeFiles/rebuild_cache.dir
+/home/f-king/linux/Drivers/Linux_Drivers/157test/BT_ttl/CMakeFiles/157blue.dir
+/home/f-king/linux/Drivers/Linux_Drivers/157test/BT_ttl/CMakeFiles/edit_cache.dir

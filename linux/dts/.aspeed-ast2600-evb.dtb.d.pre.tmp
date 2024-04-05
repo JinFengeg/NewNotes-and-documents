@@ -1,0 +1,6 @@
+aspeed-ast2600-evb.o: arch/arm/boot/dts/aspeed-ast2600-evb.dts \
+ arch/arm/boot/dts/aspeed-g6.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ scripts/dtc/include-prefixes/dt-bindings/clock/ast2600-clock.h \
+ arch/arm/boot/dts/aspeed-g6-pinctrl.dtsi

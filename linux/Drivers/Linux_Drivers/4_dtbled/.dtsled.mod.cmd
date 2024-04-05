@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/4_dtbled/dtsled.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/4_dtbled/dtsled.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/4_dtbled/dtsled.mod

@@ -1,0 +1,62 @@
+/ {
+compatible = "st,stm32mp157d-atk","st,stm32mp157";
+/*add cpus*/
+cpus {
+#address-cells =<1>;
+#size-cells=<0>;
+
+/*cpu0*/
+cpu0: cpu@0 {
+    compatible = "arm,cortex-a7";
+    device_type = "cpu";
+    reg = <0>;
+};
+
+/*cpu1*/
+cpu1: cpu@1 {
+
+    compatible = "arm,cortex-a7";
+    device_type = "cpu";
+    reg=<1>;
+};
+};
+/*soc*/
+soc{
+    compatible = "simple-bus";
+    #address-cells =<1>;
+    #size-cells=<1>;
+    ranges;
+
+    /*sram*/
+    sram:sram@10000000 {
+        compatible = "mmio-sram";
+        reg =<0x10000000  0x60000>;
+        ranges=<0 0x10000000 0x60000>;
+    };
+    /*timers6*/
+    timers6: timer@40004000{
+        #address-cells =<1>;
+        #size-cells=<0>;
+        compatible = "st,stm32-timers";
+        reg=<0x40004000 0x400>;
+
+    };
+    /*spi2*/
+    spi2:spi@4000b000{
+        #address-cells =<1>;
+        #size-cells =<0>;
+        compatible = "st,stm32h7-spi";
+        reg =<0x4000b000 0x400>;
+    };
+    /*usart2*/
+    usart2 :serial@4000e000{
+        compatible = "st,stm32h7-uart";
+        reg=<0x4000e000 0x400>;
+    };
+    /*i2c1*/
+    i2c1:i2c@40012000{
+        compatible = "st,stm32mp15-i2c";
+        reg=<0x40012000 0x400>;
+    };
+};
+};

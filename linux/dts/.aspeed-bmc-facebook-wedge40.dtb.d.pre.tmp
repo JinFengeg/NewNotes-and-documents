@@ -1,0 +1,5 @@
+aspeed-bmc-facebook-wedge40.o: \
+ arch/arm/boot/dts/aspeed-bmc-facebook-wedge40.dts \
+ arch/arm/boot/dts/aspeed-g4.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ arch/arm/boot/dts/facebook-bmc-flash-layout.dtsi

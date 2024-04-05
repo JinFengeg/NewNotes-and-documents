@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.ko /home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.o /home/f-king/linux/Drivers/Linux_Drivers/10_mutex/mutex.mod.o;  true

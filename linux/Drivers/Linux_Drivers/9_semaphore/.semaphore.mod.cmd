@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/9_semaphore/semaphore.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/9_semaphore/semaphore.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/9_semaphore/semaphore.mod

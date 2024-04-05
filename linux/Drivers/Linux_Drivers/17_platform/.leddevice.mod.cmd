@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/17_platform/leddevice.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/17_platform/leddevice.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/17_platform/leddevice.mod

@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/13_irq/keyirq.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/13_irq/keyirq.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/13_irq/keyirq.mod

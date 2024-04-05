@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/21_iic/ap3216c.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/f-king/linux/Drivers/Linux_Drivers/21_iic/ap3216c.ko /home/f-king/linux/Drivers/Linux_Drivers/21_iic/ap3216c.o /home/f-king/linux/Drivers/Linux_Drivers/21_iic/ap3216c.mod.o;  true

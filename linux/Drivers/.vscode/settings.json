@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "select.h": "c",
+        "typeinfo": "c",
+        "ad7606.h": "c",
+        "fstream": "cpp",
+        "iostream": "cpp",
+        "termios.h": "c",
+        "types.h": "c",
+        "stat.h": "c"
+    }
+}

@@ -1,0 +1,12 @@
+root:$1$iBUXclrp$YHslcfF/m4L/0WjvGTmW8/:11176::::::
+daemon:*:::::::
+bin:*:::::::
+sys:*:::::::
+sync:*:::::::
+mail:*:::::::
+www-data:*:::::::
+operator:*:::::::
+nobody:*:::::::
+sshd:*:::::::
+ftp:*:::::::
+f-king:$1$pPWT3qYL$osG8zajZQfBEiUQHByLl9.:11176:0:99999:7:::

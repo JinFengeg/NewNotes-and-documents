@@ -1,0 +1,7 @@
+aspeed-bmc-opp-mihawk.o: arch/arm/boot/dts/aspeed-bmc-opp-mihawk.dts \
+ arch/arm/boot/dts/aspeed-g5.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/aspeed-gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/leds/leds-pca955x.h \
+ arch/arm/boot/dts/ibm-power9-dual.dtsi

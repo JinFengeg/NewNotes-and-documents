@@ -1,0 +1,2 @@
+0x379a746e	ad7606_pm_ops	/home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606/ad7606/ad7606_m	EXPORT_SYMBOL_GPL	IIO_AD7606
+0xc3e3327e	ad7606_probe	/home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606/ad7606/ad7606_m	EXPORT_SYMBOL_GPL	IIO_AD7606

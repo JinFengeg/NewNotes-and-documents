@@ -1,0 +1,139 @@
+# 1 "arch/arm/boot/dts/milbeaut-m10v-evb.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/milbeaut-m10v-evb.dts"
+
+
+/dts-v1/;
+# 1 "arch/arm/boot/dts/milbeaut-m10v.dtsi" 1
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 3 "arch/arm/boot/dts/milbeaut-m10v.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/input/input.h" 1
+# 13 "./scripts/dtc/include-prefixes/dt-bindings/input/input.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/input/linux-event-codes.h" 1
+# 14 "./scripts/dtc/include-prefixes/dt-bindings/input/input.h" 2
+# 4 "arch/arm/boot/dts/milbeaut-m10v.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 5 "arch/arm/boot/dts/milbeaut-m10v.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 6 "arch/arm/boot/dts/milbeaut-m10v.dtsi" 2
+
+/ {
+ compatible = "socionext,sc2000a";
+ interrupt-parent = <&gic>;
+ #address-cells = <1>;
+ #size-cells = <1>;
+
+ cpus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+  enable-method = "socionext,milbeaut-m10v-smp";
+  cpu@f00 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a7";
+   reg = <0xf00>;
+  };
+  cpu@f01 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a7";
+   reg = <0xf01>;
+  };
+  cpu@f02 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a7";
+   reg = <0xf02>;
+  };
+  cpu@f03 {
+   device_type = "cpu";
+   compatible = "arm,cortex-a7";
+   reg = <0xf03>;
+  };
+ };
+
+ timer {
+  compatible = "arm,armv7-timer";
+  interrupts = <1 13
+    ((((1 << (4)) - 1) << 8) | 4)>,
+   <1 14
+    ((((1 << (4)) - 1) << 8) | 4)>,
+   <1 11
+    ((((1 << (4)) - 1) << 8) | 4)>,
+   <1 10
+    ((((1 << (4)) - 1) << 8) | 4)>;
+  clock-frequency = <40000000>;
+  always-on;
+ };
+
+ soc {
+  compatible = "simple-bus";
+  #address-cells = <1>;
+  #size-cells = <1>;
+  ranges;
+  interrupt-parent = <&gic>;
+
+  gic: interrupt-controller@1d000000 {
+   compatible = "arm,cortex-a7-gic";
+   interrupt-controller;
+   #interrupt-cells = <3>;
+   reg = <0x1d001000 0x1000>,
+         <0x1d002000 0x1000>;
+  };
+
+  timer@1e000050 {
+   compatible = "socionext,milbeaut-timer";
+   reg = <0x1e000050 0x20>;
+   interrupts = <0 91 4>;
+  };
+
+  uart1: serial@1e700010 {
+
+   compatible = "socionext,milbeaut-usio-uart";
+   reg = <0x1e700010 0x10>;
+   interrupts = <0 141 0x4>, <0 149 0x4>;
+   interrupt-names = "rx", "tx";
+  };
+
+ };
+
+ sram@0 {
+  compatible = "mmio-sram";
+  reg = <0x0 0x10000>;
+  #address-cells = <1>;
+  #size-cells = <1>;
+  ranges = <0 0x0 0x10000>;
+  smp-sram@f100 {
+   compatible = "socionext,milbeaut-smp-sram";
+   reg = <0xf100 0x20>;
+  };
+ };
+};
+# 5 "arch/arm/boot/dts/milbeaut-m10v-evb.dts" 2
+
+/ {
+ model = "Socionext M10V EVB";
+ compatible = "socionext,milbeaut-m10v-evb", "socionext,sc2000a";
+
+ aliases {
+  serial0 = &uart1;
+ };
+
+ chosen {
+  bootargs = "rootwait earlycon";
+  stdout-path = "serial0:115200n8";
+ };
+
+ clocks {
+  uclk40xi: uclk40xi {
+   compatible = "fixed-clock";
+   #clock-cells = <0>;
+   clock-frequency = <40000000>;
+  };
+ };
+
+ memory@40000000 {
+  device_type = "memory";
+  reg = <0x40000000 0x80000000>;
+ };
+
+};

@@ -1,0 +1,5 @@
+aspeed-bmc-intel-s2600wf.o: \
+ arch/arm/boot/dts/aspeed-bmc-intel-s2600wf.dts \
+ arch/arm/boot/dts/aspeed-g5.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ arch/arm/boot/dts/openbmc-flash-layout.dtsi

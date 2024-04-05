@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../24_regmap"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"platform_device.h": "c",
+			"regmap.h": "c"
+		}
+	}
+}

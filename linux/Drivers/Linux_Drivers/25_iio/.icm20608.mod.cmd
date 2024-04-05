@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/25_iio/icm20608.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/25_iio/icm20608.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/25_iio/icm20608.mod

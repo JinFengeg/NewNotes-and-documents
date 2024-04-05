@@ -1,0 +1,4 @@
+aspeed-ast2500-evb.o: arch/arm/boot/dts/aspeed-ast2500-evb.dts \
+ arch/arm/boot/dts/aspeed-g5.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ arch/arm/boot/dts/openbmc-flash-layout.dtsi

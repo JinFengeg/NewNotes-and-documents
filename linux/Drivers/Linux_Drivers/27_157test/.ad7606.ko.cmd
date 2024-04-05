@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.ko /home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.o /home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.mod.o;  true

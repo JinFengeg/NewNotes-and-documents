@@ -1,0 +1,6 @@
+aspeed-bmc-opp-vesnin.o: arch/arm/boot/dts/aspeed-bmc-opp-vesnin.dts \
+ arch/arm/boot/dts/aspeed-g4.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/clock/aspeed-clock.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/aspeed-gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ arch/arm/boot/dts/openbmc-flash-layout.dtsi

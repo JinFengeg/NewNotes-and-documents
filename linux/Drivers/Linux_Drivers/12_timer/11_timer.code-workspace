@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../11_key"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"of.h": "c"
+		}
+	}
+}

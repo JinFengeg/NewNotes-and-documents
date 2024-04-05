@@ -1,0 +1,1 @@
+cmd_/home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.mod := { echo  /home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.o; echo; } > /home/f-king/linux/Drivers/Linux_Drivers/27_157test/ad7606.mod
